@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.container1 {
+  border: 4px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.box1 {
+  border: 4px solid lightgray;
+  width: 100px;
+  height: 100px;
+}
+
+.box1-small {
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+}
+
+.box-wrapper1 {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Layout #2 */
+.container2 {
+  border: 4px solid lightslategray;
+  padding: 24px;
+}
+
+.row {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-bar {
+  border: 2px solid lightslategray;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.box2 {
+  border: 4px solid lightslategray;
+  width: 30%;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.box-wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Layout #3 */
+.container3 {
+  border: 5px solid lightgray;
+  padding: 50px;
+}
+
+/* Wrapper holding left stack + big box */
+.box-wrapper3 {
+  display: flex;
+  gap: 30px; /* space between left side and big box */
+}
+
+/* Left column */
+.left-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  flex: 1;
+}
+
+/* Small boxes */
+.box3 {
+  height: 70px;
+  border: 2px solid lightgray;
+}
+
+/* Bigger box on the right */
+.bigger-box3 {
+  border: 2px solid lightgray;
+  flex: 1;
+}
